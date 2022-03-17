@@ -1,3 +1,12 @@
+
+![Alt Text](https://i.imgur.com/media/0Y1xISa.gifv)
+
+
+
+![Alt Text](https://media.giphy.com/media/146NwA4ucisPoA/giphy.gif)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
