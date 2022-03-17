@@ -15,7 +15,7 @@ function App() {
 
         <ParallaxLayer offset={0} speed={0} 
           style={{ backgroundImage: 
-          `url("https://www.nasa.gov/sites/default/files/thumbnails/image/pia23801.jpg")`,
+            `url("https://www.nasa.gov/sites/default/files/thumbnails/image/pia22946-16.jpg")`,
           backgroundSize: 'contain',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -50,10 +50,9 @@ function App() {
           offset={1} 
           speed={0} 
           style={{ backgroundImage: 
-          `url("https://www.nasa.gov/sites/default/files/thumbnails/image/pia22686-16.jpg")`,
+            `url("https://www.nasa.gov/sites/default/files/thumbnails/image/junocam_jupiter_moons.jpg")`,
           backgroundSize: 'cover', }}
         />
-
         <ParallaxLayer
           offset={1}
           speed={1}
@@ -63,7 +62,7 @@ function App() {
             alignItems: 'center',
             color: 'white',
           }}>
-          <h1>Time-lapse Sequence of Jupiter’s South Pole</h1>
+          <h1>NASA’s Juno Spacecraft Glimpses Jupiter’s Moons Io and Europa.</h1>
         </ParallaxLayer>
         
         <ParallaxLayer
@@ -83,8 +82,10 @@ function App() {
           offset={2} 
           speed={0} 
           style={{ backgroundImage: 
-            `url("https://www.nasa.gov/sites/default/files/thumbnails/image/pia23803.jpg")`,
-            backgroundSize: 'cover', }} 
+            ``,
+            backgroundSize: 'contain',
+            backgroundPosition: 'bottom'
+          }} 
         />
         
         <ParallaxLayer
@@ -116,7 +117,8 @@ function App() {
           speed={1} 
           style={{ backgroundImage: 
             `url("https://www.nasa.gov/sites/default/files/thumbnails/image/pia22949.jpg`,
-            backgroundSize: 'cover',
+            backgroundSize: 'contain',
+            backgroundPosition: 'right',
           }} 
         /> 
 
@@ -148,7 +150,7 @@ function App() {
           offset={4} 
           speed={0} 
           style={{ backgroundImage: 
-            `url("https://www.nasa.gov/sites/default/files/thumbnails/image/pia22946-16.jpg")`,
+            `url("https://www.nasa.gov/sites/default/files/thumbnails/image/pia23801.jpg")`,
             backgroundSize: 'contain', }} 
             
         />
