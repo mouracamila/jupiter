@@ -13,7 +13,7 @@ function App() {
     <div className="App" style={{ width: '100%', height: '100%'}}>
       <Parallax ref={parallax} pages={6} style={{ top: '0', left: '0', background:'black' }}>
 
-        <ParallaxLayer offset={0} speed={0} 
+        <ParallaxLayer offset={0} speed={2} 
           style={{ backgroundImage: 
             `url("https://www.nasa.gov/sites/default/files/thumbnails/image/pia22946-16.jpg")`,
           backgroundSize: 'contain',
@@ -51,7 +51,8 @@ function App() {
           speed={0} 
           style={{ backgroundImage: 
             `url("https://www.nasa.gov/sites/default/files/thumbnails/image/junocam_jupiter_moons.jpg")`,
-          backgroundSize: 'cover', }}
+          backgroundSize: 'cover',
+          backgroundPosition: 'right', }}
         />
         <ParallaxLayer
           offset={1}
