@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/jupiter/static/css/main.964fdded.css",
-    "main.js": "/jupiter/static/js/main.50dcf381.js",
+    "main.js": "/jupiter/static/js/main.614946c6.js",
     "index.html": "/jupiter/index.html",
     "main.964fdded.css.map": "/jupiter/static/css/main.964fdded.css.map",
-    "main.50dcf381.js.map": "/jupiter/static/js/main.50dcf381.js.map"
+    "main.614946c6.js.map": "/jupiter/static/js/main.614946c6.js.map"
   },
   "entrypoints": [
     "static/css/main.964fdded.css",
-    "static/js/main.50dcf381.js"
+    "static/js/main.614946c6.js"
   ]
 }
