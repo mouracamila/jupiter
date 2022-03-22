@@ -9,6 +9,27 @@ function App() {
 
   const ref = useRef()
 
+  const style = {
+    style1: {
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      color: 'white',
+    },
+    style2: {
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'flex-end',
+      color: 'white',
+    },
+    style3:{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'flex-start',
+      color: 'white',
+    },
+  }
+
   return (
     <div className="App" style={{ width: '100%', height: '100%'}}>
       <Parallax ref={parallax} pages={6} style={{ top: '0', left: '0', background:'black' }}>
@@ -25,24 +46,14 @@ function App() {
         <ParallaxLayer
           offset={0}
           speed={1}
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            color: 'white',
-          }}>
+          style={style.style1}>
           <h1>Jupiter</h1>
         </ParallaxLayer>
         
         <ParallaxLayer
           offset={0}
           speed={0.5}
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'flex-end',
-            color: 'white',
-          }}>
+          style={style.style2}>
           <h2>NASA’s Juno mission captured this look at the southern hemisphere of Jupiter on Feb. 17, 2020.</h2>
         </ParallaxLayer>
 
@@ -54,31 +65,21 @@ function App() {
           backgroundSize: 'cover',
           backgroundPosition: 'right', }}
         />
+
         <ParallaxLayer
           offset={1}
           speed={1}
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            color: 'white',
-          }}>
+          style={style.style1}>
           <h1>NASA’s Juno Spacecraft Glimpses Jupiter’s Moons Io and Europa.</h1>
         </ParallaxLayer>
         
         <ParallaxLayer
           offset={1}
           speed={0.5}
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'flex-end',
-            color: 'white',
-          }}>
+          style={style.style2}>
           <h2 > Striking atmospheric features in Jupiter’s northern hemisphere are captured in this series of color-enhanced images from NASA’s Juno spacecraft. </h2>
         </ParallaxLayer>
         
-
         <ParallaxLayer 
           offset={2} 
           speed={0} 
@@ -92,24 +93,14 @@ function App() {
         <ParallaxLayer
           offset={2}
           speed={1}
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            color: 'white',
-          }}>
+          style={style.style1}>
           <h1>Churning Texture in Jupiter’s Atmosphere</h1>
         </ParallaxLayer>
 
         <ParallaxLayer
           offset={2}
           speed={0.5}
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'flex-end',
-            color: 'white',
-          }}>
+          style={style.style2}>
           <h2 >NASA’s Juno mission captured these elaborate atmospheric jets in Jupiter's northern mid-latitude region.</h2>
         </ParallaxLayer>
 
@@ -126,24 +117,14 @@ function App() {
         <ParallaxLayer
           offset={3}
           speed={1.5}
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            color: 'white',
-          }}>
+          style={style.style1}>
           <h1>Tumultuous Clouds of Jupiter</h1>
         </ParallaxLayer>
 
         <ParallaxLayer
           offset={3}
           speed={1.0}
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'flex-start',
-            color: 'white',
-          }}>
+          style={style.style3}>
           <h1 style={{maxWidth: '990px'}}>This stunning image of Jupiter's stormy northern hemisphere was captured by NASA's Juno spacecraft as it performed a close pass of the gas giant planet.</h1>
         </ParallaxLayer>
 
@@ -159,24 +140,14 @@ function App() {
         <ParallaxLayer
           offset={4}
           speed={1}
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            color: 'white',
-          }}>
+          style={style.style1}>
           <h1>Jupiter Marble</h1>
         </ParallaxLayer>
 
         <ParallaxLayer
           offset={4}
           speed={0.5}
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'flex-end',
-            color: 'white',
-          }}>
+          style={style.style2}>
           <h2 style={{maxWidth: '990px'}} >This striking view of Jupiter’s Great Red Spot and turbulent southern hemisphere was captured by NASA’s Juno spacecraft as it performed a close pass of the gas giant planet.</h2>
         </ParallaxLayer>
 
@@ -188,15 +159,11 @@ function App() {
             backgroundSize: 'contain',
             backgroundPosition: 'bottom' }} 
         />
+
         <ParallaxLayer
           offset={5}
           speed={1.0}
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            color: 'white',
-          }}>
+          style={style.style2}>
           <h1>Storm on the Horizon</h1>
         </ParallaxLayer> 
       </Parallax>
